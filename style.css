@@ -83,6 +83,35 @@ body {
     transition: 0.3s;
 }
 
+/* 语言切换器 */
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.lang-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #2563eb;
+    background: transparent;
+    color: #2563eb;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.lang-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
+.lang-btn.active {
+    background: #2563eb;
+    color: white;
+}
+
 /* 主页部分 */
 .hero {
     min-height: 100vh;
@@ -495,6 +524,16 @@ body {
     
     .nav-menu {
         display: none;
+    }
+
+    .language-switcher {
+        margin-left: 0;
+        gap: 0.3rem;
+    }
+
+    .lang-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
     }
     
     .hero-container {
