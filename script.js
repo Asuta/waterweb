@@ -82,7 +82,8 @@ const translations = {
         contact: {
             title: "联系我们",
             email: "邮箱",
-            website: "官网"
+            assetStore: "Asset Store",
+            discord: "Discord"
         },
         footer: {
             copyright: "© 2024 YoYoWater. 保留所有权利。"
@@ -170,7 +171,8 @@ const translations = {
         contact: {
             title: "Contact Us",
             email: "Email",
-            website: "Website"
+            assetStore: "Asset Store",
+            discord: "Discord"
         },
         footer: {
             copyright: "© 2024 YoYoWater. All rights reserved."
